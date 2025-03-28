@@ -1,0 +1,65 @@
+GUI Calculator - Project Documentation
+
+Project Overview
+The GUI Calculator is a desktop application built using Python's Tkinter library. It provides basic arithmetic operations and supports both mouse and keyboard input. The calculator offers a clean, user-friendly interface with a modern color scheme.
+
+
+Features
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, Division.
+- Keyboard input support for digits, operators, and Enter/Escape keys.
+- Error handling for invalid expressions.
+- Dark-themed user interface.
+
+Technologies Used
+- Programming Language: Python 3
+- Library: Tkinter (Standard GUI Toolkit for Python)
+
+Project Structure
+The project consists of a single Python script with the following key components:
+- GUI Setup: Creates and configures the application window.
+- Functions:
+  - button_click(number): Handles button input.
+  - button_clear(): Clears the input field.
+  - button_equal(): Evaluates the mathematical expression.
+  - key_press(event): Manages keyboard input.
+- Event Handling: Binds keyboard events for seamless input.
+
+Code Explanation
+1. Importing Libraries:
+   Imports Tkinter as `tk` for GUI components.
+
+2. GUI Initialization:
+   Creates a window with title, background color, and key bindings.
+
+3. Functions Overview:
+   - button_click: Appends clicked button value to the input field.
+   - button_clear: Clears input.
+   - button_equal: Evaluates the expression using eval().
+   - key_press: Detects keyboard inputs and triggers corresponding actions.
+
+4. Button Configuration:
+   - Dynamic button creation using a loop.
+   - Configured with a dark color scheme.
+
+5. Main Loop:
+   Starts the Tkinter event loop to keep the application running.
+
+Usage Instructions
+1. Run the script using Python 3:
+  
+   calculator_v1.py
+   
+2. Use mouse or keyboard for input.
+3. Click or press "=" to get the result.
+4. Press "C" or Escape to clear input.
+
+
+ Future Improvements
+- Add advanced operations (square root, percentage, etc.).
+- Implement memory functions (M+, M-, MR).
+- Enhance input validation and security.
+
+
+ Conclusion
+The GUI Calculator project demonstrates the use of Tkinter for creating interactive applications. It is a solid foundation for learning GUI programming in Python and can be expanded further to create more advanced tools.
+
